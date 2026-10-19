@@ -6,10 +6,10 @@ pipeline {
             steps { checkout scm }
         }
         stage('Setup') {
-            steps { bat 'python --version' }
+            steps { bat 'py --version' }
         }
         stage('Validate Application') {
-            steps { bat 'python scripts/check_app.py' }
+            steps { bat 'py scripts/check_app.py' }
         }
     }
 }
