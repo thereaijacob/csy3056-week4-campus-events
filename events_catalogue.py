@@ -30,4 +30,14 @@ EVENTS = [
         'category': 'Technical',
         'description': 'Discuss how small web systems can be deployed and operated.',
     },
+    {
+            'id': 'who-cares',
+            'title': 'Everyone Fails Event',
+            'date': '2026-11-26',
+            'time': '23:00',
+            'location': 'Waterside Campus, Room 177013',
+            'capacity': 67,
+            'category': 'Technical',
+            'description': 'Some of you arent making it to third year',
+        },
 ]
